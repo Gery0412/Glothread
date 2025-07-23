@@ -44,6 +44,30 @@
       transition: background-color 0.3s ease;
     }
 
+            .product {
+            background-color: #fdf8f4;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 500px;
+            margin: 150px;
+            padding: 15px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product h3 {
+            margin: 10px 0 5px;
+        }
+
+        .product p {
+            margin: 5px 0;
+        }
+
     nav a:hover {
       background-color: rgba(61, 0, 0, 0.171);
       cursor: pointer;
@@ -81,14 +105,16 @@
 
   <img src="logo.png" alt="Glothread logo" class="logo">
 
-<section>
-  <h1>Termékeink:</h1>
-  <img src="termek1.png" alt="Világító cérna" style="width:300px;">
-  <p>Termék1</p>
-    <img src="termek1.png" alt="Világító cérna" style="width:300px;position: relative; top: -356px; left: 500px">
-    <p style="position: relative; top: -356px; left: 500px">
-      Termék2
-    </p>
+  <section>
+    <div class="product">
+    <h1>Termékeink:</h1>
+    </div>
+  <div class="product">
+  <img src="termek1.png" style="width:500px;">
+  <p>Termék1</p> </div>
+  <div class="product">
+  <img src="termek1.png" style="width:500px;">
+  <p>Termék2</p> </div>
 </section>
 
 
